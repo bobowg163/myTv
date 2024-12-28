@@ -1,5 +1,7 @@
 package com.example.mytv.data.entities
 
+import com.example.mytv.data.models.MovieCastResponseItem
+
 /**
  * @项目 myTv
  * ＠包 com.example.mytv.data.entities
@@ -14,3 +16,4 @@ data class MovieCast(
 )
 
 fun MovieCastResponseItem.toMovieCast():MovieCast = MovieCast(id, characterName,realName,avatarUrl)
+
