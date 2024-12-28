@@ -1,7 +1,6 @@
 package com.example.mytv.data.repositories
 
 import com.example.mytv.data.entities.Movie
-import com.example.mytv.data.entities.MovieCast
 import com.example.mytv.data.models.MovieCastResponseItem
 import com.example.mytv.data.models.MovieCategoriesResponseItem
 import com.example.mytv.data.models.MoviesResponseItem
